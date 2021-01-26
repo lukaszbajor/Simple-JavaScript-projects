@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.welcome {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+.current-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid;
+
+}
+
+.current-stats,
+.current-results {
+    width: 48%;
+    min-height: 325px;
+    overflow: hidden;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+.current-results i {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.current-results h2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.current-results h3 {
+    font-size: 25px;
+}
+
+.current-results p {
+    font-size: 18px;
+}
+
+.current-stats p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    display: inline-block;
+    font-size: 150px;
+    background-color: rgb(95, 89, 89);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .3s;
+    margin-bottom: 10px;
+}
+
+.square:hover {
+    background-color: rgb(128, 121, 121);
+}
+
+.two {
+    margin: 0 10px;
+}
+
+.options {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+button {
+    display: block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Montserrat',
+        sans-serif;
+    margin: 30px auto;
+    transition: .3s;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(53, 52, 52);
+}
+
+button:hover {
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+.wrap-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+    min-height: 300px;
+    border-radius: 8px;
+    padding: 0 20px 0 20px;
+    color: rgb(53, 52, 52);
+    background-color: white;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.fa-hand-rock {
+    transform: rotate(90deg);
+}

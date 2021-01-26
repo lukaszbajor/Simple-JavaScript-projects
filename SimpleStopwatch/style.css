@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(93, 133, 187);
+
+}
+
+.watch {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+span {
+
+    font-size: 50px;
+    font-family: monospace;
+    color: white;
+
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background .3s;
+
+}
+
+.btn:hover {
+    background-color: rgb(228, 222, 222);
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.modal {
+    display: block;
+    position: absolute;
+    top: -100%;
+    width: 400px;
+    min-height: 300px;
+    margin-top: 11px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: .5s;
+}
+
+.modal h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(93, 133, 187);
+    letter-spacing: 2px;
+}
+
+.modal i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(93, 133, 187);
+
+}
+
+.results {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    color: rgb(93, 133, 187);
+    letter-spacing: 2px;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+
+}
+
+li {
+    padding: 5px;
+}

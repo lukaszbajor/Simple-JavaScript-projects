@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paper, stone, scissors - The Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9bf94860b7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1 class="welcome">Welcome to "Paper, stone, scissors"!</h1>
+
+    <div class="options">
+      <h3>Choose one option:</h3>
+
+      <div class="square" data-option="paper">
+        <i class="far fa-hand-paper first"></i>
+      </div>
+      <div class="square two" data-option="stone">
+        <i class="far fa-hand-rock"></i>
+      </div>
+      <div class="square" data-option="scissors">
+        <i class="far fa-hand-scissors"></i>
+      </div>
+    </div>
+
+    <button class="start">Play!</button>
+    <div class="wrap-result">
+      <div class="current-results">
+        <h3 class="under">Results:</h3>
+        <i class="far fa-user"></i>
+        <p>Your choice: <span data-results="your-choice">---</span></p>
+        <i class="fas fa-desktop"></i>
+        <p>PC choice: <span data-results="pc-choice">---</span></p>
+        <h2>
+          Winner: <br />
+          <span data-results="winner">---</span>
+        </h2>
+      </div>
+
+      <div class="current-stats">
+        <h3 class="under">Current stats:</h3>
+        <p class="numbers">Games: <span>0</span></p>
+        <p class="wins">Wins: <span>0</span></p>
+        <p class="losses">Losses: <span>0</span></p>
+        <p class="draws">Draws: <span>0</span></p>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
